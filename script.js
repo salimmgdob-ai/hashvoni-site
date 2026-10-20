@@ -42,11 +42,11 @@
       event.preventDefault();
       const email = deleteForm.querySelector('[name="account_email"]').value.trim();
       const note = deleteForm.querySelector('[name="note"]').value.trim();
-      const subject = encodeURIComponent('Hashvoni account deletion request');
+      const subject = encodeURIComponent('Nichnas Yotze account deletion request');
       const body = encodeURIComponent(
-        `Account email/phone: ${email}\n\nRequest details:\n${note || 'Please delete my Hashvoni account and associated data.'}`
+        `Account email/phone: ${email}\n\nRequest details:\n${note || 'Please delete my Nichnas Yotze account and associated data.'}`
       );
-      window.location.href = `mailto:Slem_mgdob@hotmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:Salim.mgdob@gmail.com?subject=${subject}&body=${body}`;
     });
   }
 
